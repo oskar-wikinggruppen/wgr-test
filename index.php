@@ -31,6 +31,14 @@ class WGR_ExamplePageView
 	{
 		include 'view/startpage.php';
 	}
+
+	/**
+	 * Sets response headers
+	 */
+	public function renderResponseHeaders()
+	{
+		header('Content-type: text/html; charset=UTF-8');
+	}
 }
 
 class WGR_ExamplePageController
@@ -46,6 +54,7 @@ class WGR_ExamplePageController
 		}
 
 		$pageView = new WGR_ExamplePageView();
+		$pageView->renderResponseHeaders();
 		$pageView->render($pageModel);
 	}
 }

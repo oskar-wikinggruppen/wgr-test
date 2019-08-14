@@ -5,9 +5,7 @@
  */
 
 /** @var WGR_ExamplePageModel $pageModel */
-/** @var WGR_BaseView $this */
-
-header('Content-type: text/html; charset=UTF-8');
+/** @var WGR_ExamplePageView $this */
 
 ?>
 <html>
