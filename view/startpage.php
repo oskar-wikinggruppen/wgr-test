@@ -27,10 +27,10 @@
 		}
 
 		?>
+		<script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+		<script src="js/scripts.js"></script>
+		<script>
+		WGR.example();
+		</script>
 	</body>
-	<script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
-	<script src="js/scripts.js"></script>
-	<script>
-	WGR.example();
-	</script>
 </html>
